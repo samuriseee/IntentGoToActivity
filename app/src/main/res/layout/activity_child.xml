@@ -6,26 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".ChildActivity"
     android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Activity"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textAlignment="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300px"
-        android:background="@color/cardview_dark_background"
-        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#8B99E6"
         >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="child"
-            android:textColor="#ffff"
-            android:textSize="40px"/>
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the second activity text view"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+        <Button
+            android:id="@+id/btnBacktoMainActivity"
+            android:layout_width="300px"
+            android:layout_height="150px"
+            android:text="back to main"
+            android:textSize="30px"
+            android:background="@color/design_default_color_background"/>
     </LinearLayout>
-    <Button
-        android:id="@+id/btnBacktoMainActivity"
-        android:layout_width="200px"
-        android:layout_height="300px"
-        android:text="back to main"
-        android:textSize="30px"
-        android:background="@color/design_default_color_background"/>
+
 </LinearLayout>

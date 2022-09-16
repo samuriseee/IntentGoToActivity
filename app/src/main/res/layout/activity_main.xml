@@ -6,27 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
+    android:gravity="center"
     >
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="300px"
-        android:background="@color/cardview_dark_background"
-        android:gravity="center_vertical"
-        android:orientation="vertical">
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="main"
-            android:textColor="#ffff"
-            android:textSize="40px"/>
-    </LinearLayout>
+            android:text="First Activity"
+            android:textColor="#000000"
+            android:textSize="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Tuấn Kiệt - 2050531200205"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"/>
     <Button
         android:id="@+id/btnOpenChildActivity"
-        android:layout_width="200px"
-        android:layout_height="300px"
+        android:layout_width="300px"
+        android:layout_height="150px"
         android:text="go to children"
         android:textSize="30px"
+        android:layout_margin="40dp"
         android:background="@color/design_default_color_background"/>
 
 
